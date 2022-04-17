@@ -1,0 +1,40 @@
+.box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.name {
+  display: block;
+  color: #000;
+  font-size: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.number {
+  display: inline-block;
+  color: #4a4a4a;
+  font-size: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.result {
+  display: flex;
+  margin-top: 20px;
+  padding: 8px;
+  border: 1px solid #000;
+  width: 180px;
+  border-radius: 20px;
+  background: #f5f5f5;
+}
