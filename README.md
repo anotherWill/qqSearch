@@ -6,6 +6,7 @@
 单元测试：Jest
 
 ## 启动
+### `npm install`
 ### `npm start`
 
 ## 测试
